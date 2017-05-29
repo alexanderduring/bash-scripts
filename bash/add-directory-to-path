@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# @author Alexander During
+#
+# This script checks if a provided directory is already part of the $PATH environment variable
+# and adds it in .profile if not.
+
+# Check arguments - There should be one: The directory path
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <directory path>"
+    exit 1
+fi
+
+DIR=$1
+echo "Path: $DIR"
+
+# Check if 
+exit 0
